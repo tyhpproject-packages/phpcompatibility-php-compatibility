@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/phpcompatibility-php-compatibility",
+    "description": "Tyhp type definitions for phpcompatibility/php-compatibility 9.3.5.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "9.3.5",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/phpcompatibility-php-compatibility-impl": "~9.3.5.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/phpcompatibility-php-compatibility-impl"
+        }
+    }
+}
